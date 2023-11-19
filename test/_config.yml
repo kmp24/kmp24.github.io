@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "My Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kaitlyn Perham"
-description              : "My Portfolio."
+description              : "My Portfolio"
 url                      : "https://kmp24.github.io"
 baseurl                  : "/portfolio"
 repository               : "kmp24/kmp24.github.io"
