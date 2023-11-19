@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a geospatial professional looking for my next opportunity"
   location         : "New Hampshire"
-  email            :
+  email            : "mailto:kaitlynmperham@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
