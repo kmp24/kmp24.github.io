@@ -1,0 +1,133 @@
+---
+title: "PerhamLabFinalProject"
+author: "K Perham"
+date: "December 14, 2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+
+```{r}
+DINS<-read.csv('D:/SIE512/finalproject/FINAL_DINS_WUI.csv', header<-TRUE, sep<-',')
+```
+
+```{r}
+names(DINS)
+```
+
+# Explore the  distribution of potential predictor variables to be used
+```{r}
+# What is the distribution of the WUI classes?
+ggplot(DINS, aes(x = WUICLASS10)) + geom_bar(stat="count") + theme(axis.text.x = element_text(angle = 90))
+
+# Is there a relatonship with vegetation and population density?
+ggplot(DINS, aes(x = PctVeg100,y = HHUDEN2010)) + geom_point()+
+    geom_point(aes(color = DAMAGEcat),size = 0.5)  +
+    theme_classic()
+
+
+# How well do the 30 and 100ft zones correspond to each other?
+ggplot(DINS, aes(x = PctVeg100, y = PctVeg30)) +
+    geom_point(aes(color = DAMAGEcat),size = 0.5)  +
+    theme_classic()
+
+# See how well the WUI vegetation % aligns with the vegetation surrounding the home
+ggplot(DINS, aes(x=PctVeg100,y=VEG11PC)) + geom_point()+
+    geom_point(aes(color = DAMAGEcat),size = 0.5)  +
+    theme_classic()
+
+
+# Is there a relatonship with vegetation and population density?
+ggplot(DINS, aes(x=PctVeg100,y=POPDEN2010)) + geom_point()+
+    geom_point(aes(color = DAMAGEcat), size = 0.5)  +
+    theme_classic()
+
+# What types of structures are in the dataset?
+ggplot(DINS, aes(x=STRUCTURECATEGORY)) + geom_bar(stat="count") + 
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+#### Check the distribution of the Damage type:
+#### The file contains many more undamaged structures
+```{r, message=FALSE}
+# 0 = Undamaged, 1 = Damaged
+ggplot(DINS, aes(x=DAMAGEcat)) + geom_bar(stat="count")+ theme(axis.text.x = element_text(angle = 90))
+```
+#### The dataset has many more undamaged that damaged structures - take a sample of these
+```{r}
+library(dplyr)
+DINSequal <- DINS %>% group_by(DAMAGEcat) %>% sample_n(5000)
+```
+
+
+
+
+### Testing the glm on the data
+### The very small p-value suggests that we can reject the null hypothese - defensible space seems to have an impact on structure survivability
+### It appears the vegetation in both the 30 ft and 100ft defensible space zones have an impact on defensible space outcomes. It appears that The 100ft has a greater significance to survivability
+#### based on log values of 2.19. 
+### Some WUI classificaton tyes also seem to have significance. As expected, Intermix and Interface showed the highest significance, but this could be affected by the same size of No Damage/Damaged available in each category - the intermix, interface and uninhabited Veg WUI classes have the highest risk of being affected by wildfires. Lower density of housing units in these areas and increased wildfire risk results in a less balanced sample selection.
+```{r}
+inputdata<-DINS
+WUImodel_glmall <- glm(formula=DAMAGEcat ~ PctVeg30+PctVeg100+WUICLASS10,  family = binomial, data = inputdata) 
+WUImodel_glm30 <- glm(formula=DAMAGEcat ~ PctVeg30,  family = binomial, data = inputdata)
+WUImodel_glm100 <- glm(formula=DAMAGEcat ~ PctVeg100,  family = binomial, data = inputdata)
+
+summary(WUImodel_glmall)
+summary(WUImodel_glm30)
+summary(WUImodel_glm100)
+
+WUImodel_glmall$resid <- WUImodel_glmall$residual
+
+plot(WUImodel_glmall, 1)
+plot(WUImodel_glmall, 2)
+hist(WUImodel_glmall$resid)
+```
+
+# Using all 3 predictor variables improves the model - shows that spatial arrangment and situational factors (fuel type/ placement in the WUI) of structures has an effect in addition to the immediate vegetation adjadent to the structure
+```{r}
+anova(WUImodel_glm100,WUImodel_glmall)
+```
+#### Other structural characteristics may show significance, but these data are not reliably complete in CalFire's DINS dataset.
+
+```{r}
+WUImodel_glmroof <- glm(formula=DAMAGEcat ~ PctVeg30+PctVeg100+ROOFCONSTRUCTION,  family = binomial, data = inputdata) 
+WUImodel_glmeaves <- glm(formula=DAMAGEcat ~ PctVeg30+PctVeg100+EAVES,  family = binomial, data = inputdata) 
+WUImodel_glmvent <- glm(formula=DAMAGEcat ~ PctVeg30+PctVeg100+VENTSCREEN,  family = binomial, data = inputdata) 
+summary(WUImodel_glmroof)
+summary(WUImodel_glmeaves)
+summary(WUImodel_glmvent)
+```
+
+### The Residuals vs Leverage  shows a handful of influential observations. Removing these may improve the model.
+```{r}
+plot(WUImodel_glmall)
+```
+```{r}
+library(tidyverse)
+cooksd <- cooks.distance(WUImodel_glmall)
+
+sample_size <- nrow(inputdata)
+influential <- as.numeric(names(cooksd)[(cooksd > (4/sample_size))])
+removed <- inputdata[-influential, ]
+
+# New number of observations
+nrow(removed)
+```
+#### Removing the influential observations improves the results
+```{r}
+removed_glm <-glm(formula=DAMAGEcat ~ PctVeg30+PctVeg100,  family = binomial, data = removed)
+summary(removed_glm)
+plot(removed_glm)
+```
+
+
+
