@@ -29,6 +29,9 @@ Some fun photos I've taken while working.
 {% include gallery %}
 [![Analytics](https://ga-beacon.appspot.com/UA-105425818-1/_photos)](https://github.com/kmp24/kmp24.github.io)
 
+
+
+
 <!------------------------------- FOOTER --------------------------------->
 
 
