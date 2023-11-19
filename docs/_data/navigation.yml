@@ -21,15 +21,12 @@ foo:
 # main links
 main:
   - title: "Portfolio"
-    url: /docs/_pages/portfolio.md
+    url: /portfolio/
   - title: "About"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "photos"
+    url: /photos/
+
 
 
 # documentation links
@@ -37,7 +34,7 @@ docs:
   - title: Portfolio
     children:
       - title: "Fire summary statistics"
-        url: /docs/_portfolio/fire-summary-stats.md
+        url: /_portfolio/fire-summary-stats.md
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
