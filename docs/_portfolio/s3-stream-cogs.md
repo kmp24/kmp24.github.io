@@ -15,3 +15,5 @@ sidebar:
 Our team regularly needed to download NAIP data based on an area of interest to analyze. This modifiable notebook made the process simple and could easily be utilized by interns and junior analysts with little prior knowledge of coding.
 
 > ![Image Alt Text](/assets/images/ndvi.PNG)
+
+<iframe src="https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/assets/docs/DownloadNAIP.ipynb" width="800" height="600"></iframe>
