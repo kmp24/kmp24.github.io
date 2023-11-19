@@ -597,23 +597,14 @@ To assign more author links, add to the `author.links` array  in [`_config.yml`]
 
 ```yaml
 author:
-  name: "Your Name"
+  name: "Kaitlyn Perham"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
+  bio: "I'm a geospatial professional looking for my next opportunity." # Note: Markdown is allowed
+  location: "New Hampshire"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/kmp24"
 ```
 
 **Note:** Depending on the icon and theme skin used, colors may not be used. Popular social networks like Twitter, Facebook, Instagram, etc. have the appropriate brand color set in CSS. To change or add missing colors edit [`_utilities.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_utilities.scss) in `<site root>/_sass/minimal-mistakes/`.
@@ -679,9 +670,9 @@ To start, add a new key to `_data/navigation.yml`. This will be referenced later
 
 ```yaml
 docs:
-  - title: Getting Started
+  - title: Portfolio
     children:
-      - title: "Quick-Start Guide"
+      - title: "Portfolio"
         url: /docs/quick-start-guide/
       - title: "Structure"
         url: /docs/structure/

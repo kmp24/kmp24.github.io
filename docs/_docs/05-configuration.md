@@ -896,10 +896,10 @@ Used as the defaults for defining what appears in the author sidebar.
 
 ```yaml
 author:
-  name     : "Your Name"
+  name     : "Kaitlyn Perham"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
-  location : "Somewhere, USA"
+  bio      : "I'm a geospatial professional looking for my next opportunity."
+  location : "New Hampshire"
 ```
 
 Author links are all optional, include the ones you want visible under the `author.links` array.
@@ -912,23 +912,14 @@ Author links are all optional, include the ones you want visible under the `auth
 
 ```yaml
 author:
-  name: "Your Name"
+  name: "Kaitlyn Perham"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
+  bio: "I'm a geospatial professional looking for my next opportunity." # Note: Markdown is allowed
+  location: "New Hampshire"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/kmp24"
 ```
 
 To customize the author sidebar, read the full [layout documentation]({{ "/docs/layouts/#author-profile" | relative_url }}).
