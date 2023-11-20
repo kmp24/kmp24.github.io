@@ -1,16 +1,10 @@
 ---
 title: "Automate Fire Summary Statistics"
 excerpt: "Generate risk statistics for customer communications and marketing"
-header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image_path: docs/assets/images/fire_map.PNG
+    image_path: docs/assets/images/folium.PNG
     image_alt: "NDVI"
-    url: "https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/assets/docs/AnalyzeFirePerimeter.ipynb"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
     text: "Geospatial Analyst"
   - title: "Responsibilities"
     text: "Automate processing of our wildfire risk data for fast distribution to customers, internal stakeholders, and marketing teams"
@@ -22,3 +16,10 @@ During the wildfire season, our daily workflow often got quite hectic. Our custo
 * generates summaries and a visualization for our internal team using folium
 * outputs a quick one-liner for the marketing team
 * Runs the ArcPy code to process standard map product we send to customers via the commandline
+
+
+![Image Alt Text](/assets/images/folium.PNG)
+
+<iframe src="https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/assets/docs/AnalyzeFirePerimeter.ipynb" width="800" height="600"></iframe>
+
+![Image Alt Text](/assets/images/fire_map.PNG)

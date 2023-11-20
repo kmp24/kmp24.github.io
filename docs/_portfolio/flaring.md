@@ -1,12 +1,12 @@
 ---
-title: "Automate Gas Flaring to Predict Oil Production"
-excerpt: "Use VIIRS nighttime observations to detect thermal anomalies and refine the data for analysis"
+title: "Automate gas flaring detection to predict oil poduction using VIIRS"
+excerpt: "Used VIIRS nighttime observations to detect gas flaring and predict oil production"
 
 sidebar:
   - title: "Role"
     text: "Geospatial Data Scientist/Engineer"
   - title: "Responsibilities"
-    text: "Use VIIRS nighttime observations to detect thermal anomalies and refine the data for analysis"
+    text: "Used VIIRS nighttime observations to detect gas flaring and predict oil production"
 ---
 
 For this project, we had an NGO client that wanted to be able to detect misreported oil production values in an area of interest to them using freely available satellite data with a methdology that could be reproduced. I developed a process to do this based on existing literature (primarily by Christopher Elvidge, Mikhail Zhizhin, and others). The process involved accessing over 10 years of VIIRS nighttime SDR swath data, downloading and processing the HDF files using xarray/pandas (as the SDR product was not streamable at the time of this project) via the LAADS DAAC. For the transformation portion of the processing pipeline, the following was required:
