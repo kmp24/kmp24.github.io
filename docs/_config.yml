@@ -69,7 +69,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://linkedin.com/li/kaitlyn-perham"
+    - "https://linkedin.com/in/kaitlyn-perham"
 
 # Analytics
 analytics:
@@ -88,7 +88,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kmp24"
-- label: "Linkedin"
+    - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/kaitlyn-perham/"
 
@@ -100,8 +100,8 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kmp24"
     - label: "Linkedin"
-          icon: "fab fa-fw fa-linkedin"
-          url: "https://www.linkedin.com/in/kaitlyn-perham/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kaitlyn-perham/"
 
 # Reading Files
 include:
