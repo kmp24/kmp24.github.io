@@ -873,9 +873,9 @@ For Google Analytics add your Tracking Code:
 
 ```yaml
 analytics:
-  provider: "google-gtag"
+  provider: "google-universal"
   google:
-    tracking_id: "G-5RFK8BDEK0"
+    tracking_id: "UA-59176767-1"
     anonymize_ip: false # default
 ```
 
