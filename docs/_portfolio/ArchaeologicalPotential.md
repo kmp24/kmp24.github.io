@@ -2,7 +2,7 @@
 title: "Pre-Contact Archaeological Potential"
 excerpt: "Determine the likelihood of pre-contact archaeological deposits in need of protection"
 header:
-  teaser: /assets/images/archaeological potential.PNG
+  teaser: docs/assets/Maps/ArchaeologicalPotentialinBiddefordMaine.jpg
 sidebar:
   - title: "Role"
     text: "Geospatial Analyst, Verisk"
@@ -14,6 +14,5 @@ This was a personal project from years ago when I was still active in archaeolog
 
 My analysis followed closely the process of Leden's 2009 paper, repurposed for analyzing Biddeford Maine, which is near where I grew up. The factors include soil makeup, slope, and proximity to various water sources.
 
-> ![Image Alt Text](/assets/images/archaeological potential.PNG)
 
-<iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/master/docs/assets/archpotential.pdf" width="1200" height="900"></iframe>
+<iframe src="https://github.com/kmp24/kmp24.github.io/blob/master/docs/assets/Maps/ArchaeologicalPotentialinBiddefordMaine.jpg" width="1200" height="900"></iframe>
