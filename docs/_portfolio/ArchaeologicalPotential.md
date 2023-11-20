@@ -2,7 +2,7 @@
 title: "Pre-Contact Archaeological Potential"
 excerpt: "Determine the likelihood of pre-contact archaeological deposits in need of protection"
 header:
-  teaser: /assets/images/arch_thumb.jpg
+  teaser: /assets/images/arch_thumb.PNG
 sidebar:
   - title: "Role"
     text: "Geospatial Analyst, Verisk"
