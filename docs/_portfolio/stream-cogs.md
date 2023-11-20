@@ -12,7 +12,7 @@ sidebar:
 ---
 
 
-Our team regularly needed to download NAIP data from a variety of years/states. I wrote this code when I had a project where I needed the data for the entire state of CA and just needed NDVI. We had very limited storage space at the time, so I needed a way to either download, process, and delete the original file, or come up with some other way. I found the data I needed was available on an Azure blob, and wrote this code to retrieve the NDVI, MSAVI, or whatever analysis we needed without downloading the file and taking up physical server space (before we transitioned completely to the cloud).
+Our team regularly needed to download NAIP data from a variety of years/states. I wrote this code when I had a project where I needed data for the entire state of CA, and just wanted to do my analysis using NDVI. We had very limited storage space at the time, so I needed a way to either download, process, and delete the original file, or come up with another way. I found the data I needed was available on an Azure blob, and wrote this code to retrieve the NDVI/MSAVI/etc and saving as a jp2 instead of downloading the original data.
 
 > ![Image Alt Text](/assets/images/ndvi.PNG)
 
