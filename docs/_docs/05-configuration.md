@@ -875,7 +875,7 @@ For Google Analytics add your Tracking Code:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-1234567-8"
+    tracking_id: "G-5RFK8BDEK0"
     anonymize_ip: false # default
 ```
 

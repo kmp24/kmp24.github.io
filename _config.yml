@@ -82,9 +82,9 @@ baidu_site_verification  :
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
-    tracking_id          : "UA-105425818-1"
+    tracking_id          : "G-5RFK8BDEK0"
     anonymize_ip         : # true, false (default)
 
 
