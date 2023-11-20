@@ -1,13 +1,13 @@
 ---
 title: "Retrieve post-fire Landsat 8 imagery via S3"
-excerpt: "Retrieve post-fire Landsat 8 imagery for model production"
+excerpt: "Retrieve post-fire Landsat 8 imagery"
 header:
   teaser: /assets/images/l8scene.PNG
 sidebar:
   - title: "Role"
     text: "Geospatial Analyst, Verisk"
   - title: "Responsibilities"
-    text: "Retrieve post-fire Landsat 8 imagery for model production"
+    text: "Retrieve post-fire Landsat 8 imagery"
 ---
 
 A crucial part of our yearly model production process was to download leaf-on Landsat 8 imagery with low cloud cover. We also needed the images to be post-wildfire - we needed the imagery to include all major wildfire events for the previous year. Our existing process was an internally designed software to fetch Landsat imagery between specified dates and land cloud cover percent, but it could not do the major task of screening by the last wildfire event in that Path/Row. My code solved this problem while drastically speeding up the download process by utilizing an existing S3 bucket. My code:

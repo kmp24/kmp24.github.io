@@ -1,6 +1,6 @@
 ---
 title: "Identification of peatlands at risk from oil & gas extraction"
-excerpt: "Retrieve post-fire Landsat 8 imagery for model production"
+excerpt: "Personal project experimenting with streamlit dashboards"
 header:
   teaser: /assets/images/Peatlands_App.PNG
 sidebar:
