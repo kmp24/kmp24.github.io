@@ -1,7 +1,8 @@
 ---
 title: "Defensible Space Analysis"
 excerpt: "Research project to determine the effectiveness of defensible space on wildfire losses"
-
+header:
+  teaser: /assets/images/bounds.PNG
 sidebar:
   - title: "Role"
     text: "Senior Geospatial Analyst, Verisk"

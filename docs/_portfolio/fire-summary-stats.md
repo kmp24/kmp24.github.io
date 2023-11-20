@@ -22,6 +22,6 @@ During the wildfire season, our daily workflow often got quite hectic. Our custo
 
 ![Image Alt Text](/assets/images/folium.PNG)
 
-<iframe src="https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/docs/assets/AnalyzeFirePerimeter.ipynb" width="800" height="600"></iframe>
+<iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Data%20Analysis%20Samples/Glass_Fire_Analysis_Verisk.ipynb" width="1200" height="800"></iframe>
 
 ![Image Alt Text](/assets/images/fire_map.PNG)

@@ -1,7 +1,8 @@
 ---
 title: "Automate gas flaring detection to predict oil poduction using VIIRS"
 excerpt: "Used VIIRS nighttime observations to detect gas flaring and predict oil production"
-
+header:
+  teaser: /assets/images/snippet.PNG
 sidebar:
   - title: "Role"
     text: "Geospatial Data Scientist/Engineer, Element 84"
