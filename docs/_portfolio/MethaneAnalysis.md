@@ -2,7 +2,7 @@
 title: "Landfill Methane Intensity Analysis"
 excerpt: "Analyze landfill emissions and get county-level statistics"
 header:
-  teaser: /assets/images/folium.PNG
+  teaser: /assets/images/methane.PNG
 sidebar:
   - title: "Role"
     image_path: docs/assets/images/methane.PNG

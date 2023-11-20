@@ -2,7 +2,7 @@
 title: "Pre-Contact Archaeological Potential"
 excerpt: "Determine the likelihood of pre-contact archaeological deposits in need of protection"
 header:
-  teaser: docs/assets/Maps/ArchaeologicalPotentialinBiddefordMaine.jpg
+  teaser: /docs/assets/Maps/ArchaeologicalPotentialinBiddefordMaine.jpg
 sidebar:
   - title: "Role"
     text: "Geospatial Analyst, Verisk"
