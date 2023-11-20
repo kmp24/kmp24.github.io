@@ -14,6 +14,6 @@ I was a GeoCorps participant on the White Mountain National Forest in NH, where 
 
 
 
-![Image Alt Text](docs/assets/images/damagelocations.PNG)
+<img src="docs/assets/images/damagelocations.PNG" alt="DamageLocations" style="max-width:100%; height:auto;">
 
-![Image Alt Text](/docs/assets/images/download.PNG)
+<img src="docs/assets/images/download.PNG" alt="Geology" style="max-width:100%; height:auto;">
