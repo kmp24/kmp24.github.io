@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  bio              : "I'm a geospatial professional looking for my next opportunity."
+  bio              : "I'm a geospatial analyst looking for my next opportunity."
   location         : "New Hampshire"
   links:
     - label: "GitHub"

@@ -898,7 +898,7 @@ Used as the defaults for defining what appears in the author sidebar.
 author:
   name     : "Kaitlyn Perham"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "I'm a geospatial professional looking for my next opportunity."
+  bio      : "I'm a geospatial analyst looking for my next opportunity."
   location : "New Hampshire"
 ```
 
@@ -914,7 +914,7 @@ Author links are all optional, include the ones you want visible under the `auth
 author:
   name: "Kaitlyn Perham"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I'm a geospatial professional looking for my next opportunity." # Note: Markdown is allowed
+  bio: "I'm a geospatial analyst looking for my next opportunity." # Note: Markdown is allowed
   location: "New Hampshire"
   links:
     - label: "GitHub"
