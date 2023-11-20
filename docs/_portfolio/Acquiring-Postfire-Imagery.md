@@ -17,6 +17,6 @@ A crucial part of our yearly model production process was to download leaf-on La
 * filters by date of last fire for each tile, and updates the appropriate imagery daterange search
 * Also adds additional tries for when the cloud cover parameters are not met
 
-> ![Image Alt Text](/assets/images/l8scene.PNG)
+![Image Alt Text](/assets/images/l8scene.PNG)
 
 <iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/master/docs/assets/Download_L8Imagery_Post_Fire.ipynb" width="800" height="600"></iframe>
