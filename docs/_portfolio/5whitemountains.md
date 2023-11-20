@@ -14,7 +14,7 @@ I was a GeoCorps participant on the White Mountain National Forest in NH, where 
 
 
 ![Damage Locations](/assets/images/damagelocations_thumb.png)
-Larger version[here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Maps/Perham_Kaitlyn_USFS_WMNF_LocationofMostDamage.pdf)
+Larger version [here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Maps/Perham_Kaitlyn_USFS_WMNF_LocationofMostDamage.pdf)
 
 ![Geologic contacts](/assets/images/geologic_thumb.png)
-Larger version[here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Maps/Perham_Kaitlyn_USFS_WMNF_GeologicContacts.pdf)
+Larger version [here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Maps/Perham_Kaitlyn_USFS_WMNF_GeologicContacts.pdf)
