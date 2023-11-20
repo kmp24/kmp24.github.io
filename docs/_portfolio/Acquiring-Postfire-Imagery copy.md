@@ -14,4 +14,4 @@ For this application, I also experiemented with hosting it on Huggingface, a pop
 > ![Image Alt Text](/assets/images/Peatlands_App.PNG)
 
 https://huggingface.co/spaces/kperham/peatlandsinperil
-<iframe src="https://huggingface.co/spaces/kperham/peatlandsinperil" width="800" height="600"></iframe>
+<iframe src="https://huggingface.co/spaces/kperham/peatlandsinperil" width="1200" height="900"></iframe>
