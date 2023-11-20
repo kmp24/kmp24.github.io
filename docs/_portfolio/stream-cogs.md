@@ -2,7 +2,7 @@
 title: "Stream COGs and save processed data"
 excerpt: "Use Cloud Optimized Geotiffs to perform analysis in the cloud"
 header:
-  teaser: /assets/images/ndvi.png
+  teaser: /assets/images/ndvi.PNG
 sidebar:
   - title: "Role"
     text: "Geospatial Analyst, Verisk"
