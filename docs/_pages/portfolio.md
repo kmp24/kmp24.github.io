@@ -7,4 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
+{% for item in site.portfolio %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
