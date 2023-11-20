@@ -3,10 +3,7 @@ title: "Stream COGs and save processed data"
 excerpt: "Use Cloud Optimized Geotiffs to perform analysis in the cloud"
 sidebar:
   - title: "Role"
-    url: "https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/assets/docs/DownloadNAIP.ipynb"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    text: "Geospatial Analyst"
+    text: "Geospatial Analyst, Verisk"
   - title: "Responsibilities"
     text: "Use Cloud Optimized Geotiffs to perform analysis in the cloud"
 ---

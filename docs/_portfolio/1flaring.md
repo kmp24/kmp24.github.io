@@ -4,7 +4,7 @@ excerpt: "Used VIIRS nighttime observations to detect gas flaring and predict oi
 
 sidebar:
   - title: "Role"
-    text: "Geospatial Data Scientist/Engineer"
+    text: "Geospatial Data Scientist/Engineer, Element 84"
   - title: "Responsibilities"
     text: "Used VIIRS nighttime observations to detect gas flaring and predict oil production"
 ---

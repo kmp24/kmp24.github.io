@@ -1,7 +1,8 @@
 ---
 title: "Stream COGs via S3 and a predefined AOI"
 excerpt: "Download NAIP from USGS's S3 bucket an AOI"
-
+header:
+  teaser: /assets/images/ndvi.PNG
 sidebar:
   - title: "Role"
     url: "https://nbviewer.jupyter.org/github/kmp24/kmp24.github.io/blob/master/assets/docs/DownloadNAIP.ipynb"

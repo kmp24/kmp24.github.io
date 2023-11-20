@@ -1,6 +1,8 @@
 ---
 title: "Automate Fire Summary Statistics"
 excerpt: "Generate risk statistics for customer communications and marketing"
+header:
+  teaser: /assets/images/folium.PNG
 sidebar:
   - title: "Role"
     image_path: docs/assets/images/folium.PNG

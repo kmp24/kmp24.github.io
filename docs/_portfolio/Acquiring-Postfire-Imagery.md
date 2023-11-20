@@ -1,10 +1,11 @@
 ---
 title: "Retrieve post-fire Landsat 8 imagery via S3"
 excerpt: "Retrieve post-fire Landsat 8 imagery for model production"
-
+header:
+  teaser: /assets/images/l8scene.PNG
 sidebar:
   - title: "Role"
-    text: "Geospatial Analyst"
+    text: "Geospatial Analyst, Verisk"
   - title: "Responsibilities"
     text: "Retrieve post-fire Landsat 8 imagery for model production"
 ---

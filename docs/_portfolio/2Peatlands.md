@@ -14,4 +14,4 @@ For this application, I also experimented with hosting it on Huggingface, a popu
 
 ![Peatlands Dashboard](/assets/images/Peatlands_App.PNG)
 
-View the app on Huggingface [here:](https://huggingface.co/spaces/kperham/peatlandsinperil)
+View the app on Huggingface [here](https://huggingface.co/spaces/kperham/peatlandsinperil)

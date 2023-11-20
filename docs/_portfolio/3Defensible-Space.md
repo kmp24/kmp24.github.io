@@ -4,7 +4,7 @@ excerpt: "Research project to determine the effectiveness of defensible space on
 
 sidebar:
   - title: "Role"
-    text: "Senior Geospatial Analyst"
+    text: "Senior Geospatial Analyst, Verisk"
   - title: "Responsibilities"
     text: "Research project to determine the effectiveness of defensible space on wildfire losses"
 ---
