@@ -13,4 +13,4 @@ sidebar:
 
 This code cleans weather station data and creates an SQLite database with a pre-existing data model using SQLAlchemy. A simple Flask API endpoint is created.
 
-View the acode repository [here](https://github.com/kmp24/code-challenge-template)
+View the code repository [here](https://github.com/kmp24/code-challenge-template)

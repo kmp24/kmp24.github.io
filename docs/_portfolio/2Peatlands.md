@@ -16,4 +16,4 @@ For this application, I also experimented with hosting it on Huggingface, a popu
 
 View the app on Huggingface [here](https://huggingface.co/spaces/kperham/peatlandsinperil)
 
-View the acode repository [here](https://github.com/kmp24/peatlandsinperil)
+View the code repository [here](https://github.com/kmp24/peatlandsinperil)
