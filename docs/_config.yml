@@ -88,6 +88,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kmp24"
+- label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kaitlyn-perham/"
 
 
 # Site Footer
@@ -96,8 +99,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kmp24"
-
-
+    - label: "Linkedin"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/kaitlyn-perham/"
 
 # Reading Files
 include:
