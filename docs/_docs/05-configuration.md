@@ -898,7 +898,7 @@ Used as the defaults for defining what appears in the author sidebar.
 author:
   name     : "Kaitlyn Perham"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "I'm a geospatial analyst looking for my next opportunity."
+  bio      : "I'm a geospatial professional skilled in geospatial analysis, Python, and data analytics. Proven track record in developing data pipelines and providing data analysis for delivering actionable insights. Seeking roles in data analysis with a focus on geospatial applications. "
   location : "New Hampshire"
 ```
 

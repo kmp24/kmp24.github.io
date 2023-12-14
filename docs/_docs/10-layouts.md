@@ -599,7 +599,7 @@ To assign more author links, add to the `author.links` array  in [`_config.yml`]
 author:
   name: "Kaitlyn Perham"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I'm a geospatial analyst looking for my next opportunity." # Note: Markdown is allowed
+  bio: "I'm a geospatial professional skilled in geospatial analysis, Python, and data analytics. Proven track record in developing data pipelines and providing data analysis for delivering actionable insights. Seeking roles in data analysis with a focus on geospatial applications. " # Note: Markdown is allowed
   location: "New Hampshire"
   links:
     - label: "GitHub"
