@@ -17,3 +17,6 @@ Before that, I was a senior geospatial analyst at Verisk working on wildfire ris
 I've also worked in real estate and public lands management in both natural resources and cultural resource management. 
 
 My favorite thing is to figure out how to model a problem to solve it using code and geospatial data.
+
+
+<script src="_includes\analytics-providers\google-gtag.html"></script>

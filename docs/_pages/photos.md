@@ -28,7 +28,6 @@ Some fun photos I've taken while working in the field. Office work doesn't have 
 
 {% include gallery %}
 
-
-<!------------------------------- FOOTER --------------------------------->
+<script src="_includes\analytics-providers\google-gtag.html"></script>
 
 
