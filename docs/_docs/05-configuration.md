@@ -873,11 +873,12 @@ For Google Analytics add your Tracking Code:
 
 ```yaml
 analytics:
-  provider: "google-universal"
+  provider: "google-gtag"
   google:
-    tracking_id: "UA-59176767-1"
+    tracking_id: "G-XPBNYW4N8W"
     anonymize_ip: false # default
 ```
+
 
 To use another provider not included with the theme set `provider: "custom"` then add their embed code to `_includes/analytics-providers/custom.html`.
 
