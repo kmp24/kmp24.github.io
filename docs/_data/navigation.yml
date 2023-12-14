@@ -24,7 +24,7 @@ main:
     url: /portfolio/
   - title: "About"
     url: /about/
-  - title: "photos"
+  - title: "Photos"
     url: /photos/
 
 
