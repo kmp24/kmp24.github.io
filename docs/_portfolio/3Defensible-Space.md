@@ -18,3 +18,14 @@ The analysis consisted of:
 * Explore the results, which provided clearer guidance on what defensible space attributes and structure characteristics are actually determining factors in survivability
 
 View the product page [here](https://www.verisk.com/insurance/products/fireline/)
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

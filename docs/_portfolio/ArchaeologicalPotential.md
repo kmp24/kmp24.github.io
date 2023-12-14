@@ -15,3 +15,13 @@ This was a personal project from years ago when I was still active in archaeolog
 My analysis followed closely the process of Leden's 2009 paper, repurposed for analyzing Biddeford Maine, which is near where I grew up. The factors include soil makeup, slope, and proximity to various water sources.
 
 See the large version [here](https://raw.githubusercontent.com/kmp24/kmp24.github.io/gh-pages/docs/assets/Maps/ArchaeologicalPotentialinBiddefordMaine.jpg)
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

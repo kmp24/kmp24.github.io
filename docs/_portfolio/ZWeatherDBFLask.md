@@ -14,3 +14,13 @@ sidebar:
 This code cleans weather station data and creates an SQLite database with a pre-existing data model using SQLAlchemy. A simple Flask API endpoint is created.
 
 View the code repository [here](https://github.com/kmp24/code-challenge-template)
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

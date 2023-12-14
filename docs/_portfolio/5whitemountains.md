@@ -18,3 +18,13 @@ Larger version [here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/doc
 
 ![Geologic contacts](/assets/images/geologic_thumb.png)
 Larger version [here](https://github.com/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Maps/Perham_Kaitlyn_USFS_WMNF_GeologicContacts.pdf)
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

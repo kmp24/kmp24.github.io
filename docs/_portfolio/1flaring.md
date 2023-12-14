@@ -16,3 +16,14 @@ For this project, we had an NGO client that wanted to be able to detect misrepor
 * Estimating the hotspot temperature using Planck curve fitting across several infrared bands.
 * After concatenating all of the flare data with temperatures exceeding 1500K, the DBSCAN clustering algorithm was used to validate flaring locations and aid in the removal of outliers with great accuracy.
 * The final data was used to create a regression model, utilizing externally reported data. The model achieved high accuracy and was presented to the client for use in their decision-making.
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

@@ -20,3 +20,14 @@ A crucial part of our yearly model production process was to download leaf-on La
 ![Image Alt Text](/assets/images/l8scene.PNG)
 
 <iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/master/docs/assets/Download_L8Imagery_Post_Fire.ipynb" width="800" height="600"></iframe>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

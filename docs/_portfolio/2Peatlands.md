@@ -17,3 +17,14 @@ For this application, I also experimented with hosting it on Huggingface, a popu
 View the app on Huggingface [here](https://huggingface.co/spaces/kperham/peatlandsinperil)
 
 View the code repository [here](https://github.com/kmp24/peatlandsinperil)
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

@@ -25,3 +25,13 @@ During the wildfire season, our daily workflow often got quite hectic. Our custo
 <iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/Data%20Analysis%20Samples/Glass_Fire_Analysis_Verisk.ipynb" width="1200" height="800"></iframe>
 
 ![Image Alt Text](/assets/images/fire_map.PNG)
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>

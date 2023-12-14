@@ -16,8 +16,8 @@ title_separator          : "-"
 subtitle                 : ""
 name                     : &name "Kaitlyn Perham" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://kmp24github.io/portfolio # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://kmp24github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
 repository               : "kmp24/kmp24.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -73,10 +73,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-59176767-1" # Replace this with your ID, or delete
-    anonymize_ip         : true
+    tracking_id          : "G-XPBNYW4N8W" # Replace this with your ID, or delete
+    anonymize_ip         : false
 
 
 # Site Author

@@ -15,3 +15,13 @@ Our team regularly needed to download NAIP data from a variety of years/states. 
 
 
 <iframe src="https://nbviewer.org/github/kmp24/kmp24.github.io/blob/gh-pages/docs/assets/NAIP_COGS_NDVI.ipynb" width="800" height="600"></iframe>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>
