@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Kaitlyn Perham"
 description              : "My Portfolio."
 url                      : "https://kmp24.github.io"
-baseurl                  : "/portfolio/"
+baseurl                  : "/portfolio"
 repository               : "kmp24/kperham.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -92,7 +92,7 @@ analytics:
 author:
   name             : "Kaitlyn Perham"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a geospatial analyst looking for my next opportunity"
+  bio              : "I'm a geospatial professional skilled in geospatial analysis, Python, and data analytics. Proven track record in developing data pipelines and providing data analysis for delivering actionable insights. Seeking roles in data analysis with a focus on geospatial applications. "
   location         : "New Hampshire"
   email            :
   links:
