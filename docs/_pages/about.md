@@ -19,4 +19,12 @@ I've also worked in real estate and public lands management in both natural reso
 My favorite thing is to figure out how to model a problem to solve it using code and geospatial data.
 
 
-<script src="_includes\analytics-providers\google-gtag.html"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XPBNYW4N8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XPBNYW4N8W');
+</script>
